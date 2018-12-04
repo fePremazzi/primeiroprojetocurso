@@ -10,15 +10,24 @@
             android:text="Clique no botão"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView4"
+            android:id="@+id/txtExibicao"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="28dp" android:layout_marginLeft="16dp" android:layout_marginStart="16dp"
             android:textSize="24sp"/>
     <Button
-            android:text="Jogar"
+            android:text="alterar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/button"
+            android:id="@+id/btnTexto"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="16dp" android:layout_marginTop="80dp" android:layout_marginStart="16dp"/>
+            android:layout_marginLeft="16dp" android:layout_marginTop="80dp" android:layout_marginStart="16dp"
+            android:onClick="buttonClick"/>
+    <Button
+            android:text="Limpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLimpar"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="124dp" android:layout_marginTop="80dp" android:layout_marginStart="124dp"
+            android:onClick="buttonLimparClick"/>
 </android.support.constraint.ConstraintLayout>
